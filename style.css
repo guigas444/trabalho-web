@@ -38,6 +38,34 @@ header{
     margin-right: 15px;
 }
 
+.menu a:hover {
+      color: #c1ff72; 
+    }
+
+.compra {
+      position: absolute;
+      top: 20px;
+      right: 40px;
+      background: rgba(0, 100, 0, 0.85); 
+      padding: 10px 20px;
+      border-radius: 12px;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    }
+
+.compra a {
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 18px;
+      color: #ffffff; 
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+.compra a:first-child {
+      margin-left: 0;
+    }
+
+
 section.sobre{
     height: calc(100% - 200px);
     position: relative;
@@ -62,4 +90,3 @@ section.sobre{
     font-weight: bold;
     max-width: 800px;
 }
-
